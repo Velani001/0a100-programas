@@ -26,7 +26,7 @@
 #"""
 import re
 import sys
-1
+
 entrada = input('digite um cpf: ')
 cpf = re.sub(r'[^0-9]','',entrada)
 nove_digitos = cpf[:9]
