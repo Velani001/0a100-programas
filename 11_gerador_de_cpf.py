@@ -24,9 +24,17 @@
 #
 #O segundo dígito do CPF é 0
 #"""
-
-cpf = input('digite um cpf: ')
+import re
+import sys
+1
+entrada = input('digite um cpf: ')
+cpf = re.sub(r'[^0-9]','',entrada)
 nove_digitos = cpf[:9]
+
+entrada_repetida = entrada = entrada[0] * len(entrada)
+if entrada_repetida:
+    print('Voce enviou dados sequenciais')
+    sys.exit()
 
 contador_1 = 10
 resultado_1 = 0
