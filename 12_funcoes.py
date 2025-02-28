@@ -1,3 +1,4 @@
+# função que multiplica x numeros 
 def mult(*args):
     total = 1
 
@@ -9,7 +10,7 @@ multiplicar = mult(1,2,3,4,5)
 print(multiplicar, '\n--------')
 
 #-----------------------------
-
+# função que verifica se um determinado numero é par ou impar
 def par_impar(numero):
     verificador = numero % 2 == 0
 
@@ -23,7 +24,7 @@ print(par_impar(35))
 print(par_impar(102934), '\n--------')
 
 #-----------------
-
+# função que da saudações ao usuario
 usuario = input('Qual seu nome: ')
 
 def criar_saudacao(saudacao):
@@ -40,6 +41,7 @@ print(boa_noite(usuario))
 print(boa_tarde(usuario), '\n--------')
 
 #-----------------
+# função que multiplica um numero passado pelo usuario
 num = input('Qual o numero a ser multiplicado: ')
 num = int(num)
 
